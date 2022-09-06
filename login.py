@@ -41,6 +41,7 @@ def menu():
             login = input('Digite seu login\n')
             senha = input('Digite a sua senha\n')
             usuario = Usuario(login, senha)
+            # reescrever esse if usando o operador ternário
             if existe(usuario):
                 print("Usuário OK!!!")
             else:
